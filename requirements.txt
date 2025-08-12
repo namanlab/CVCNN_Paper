@@ -1,0 +1,11 @@
+torch
+torchvision
+complexPyTorch
+matplotlib
+seaborn
+numpy
+json5
+librosa
+scipy
+pathlib
+scikit-learn

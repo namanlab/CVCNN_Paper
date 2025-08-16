@@ -18,14 +18,8 @@ It includes code, datasets, and notebooks for:
 │   ├── FashionMNIST/raw/
 │   ├── KMNIST/raw/
 │   ├── MNIST/raw/
-│   ├── binary_data/
-│   ├── genres_original/
-│   ├── images_original/
-│   ├── multi_data_segment/
-│   ├── test/
-│   ├── train/
-│   ├── features_30_sec.csv
-│   └── features_3_sec.csv
+│   ├── music_genre_binary_data/
+│   ├── music_genre_multiclass_data/
 │
 ├── results/                  # Saved experimental outputs (plots, logs, metrics)
 │
@@ -34,10 +28,6 @@ It includes code, datasets, and notebooks for:
 ├── EXP1_FMNIST.ipynb          # Experiment 1 – Fashion-MNIST
 ├── EXP2_3_Binary_MusicGenre.ipynb   # Experiments 2 and 3 – Binary genre classification
 ├── EXP2_3_Multi_MusicGenre.ipynb    # Experiments 2 and 3 – Multi-class genre classification
-├── EXP2_Multi_MusicGenre_Data_Prep.ipynb # Data preparation for audio experiments (2 and 3)
-│
-├── MFCC_Samples.ipynb         # MFCC extraction examples
-├── helper.py                  # Utility functions
 ├── requirements.txt           # Python dependencies
 ├── LICENSE
 └── README.md
@@ -141,7 +131,6 @@ jupyter notebook EXP2_3_Multi_MusicGenre.ipynb
 ## 🎯 Notes
 - All datasets are stored in the `data/` directory.  
 - Audio feature extraction uses **Librosa**; MFCC workflows are detailed in the paper.  
-- The `helper.py` file contains reusable functions for model creation, training loops, and plotting.  
 
 ---
 
